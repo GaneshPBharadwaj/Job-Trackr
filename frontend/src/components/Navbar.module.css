@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc; /* Subtle border */
+  }
+  
+  .navbar span {
+    font-size: 1.4rem; /* Increased font size to 1.2rem */
+    color: #333; /* Dark text */
+    font-weight: bold; /* Make the name bold */
+  }
+  
+  .navbar button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .navbar button:hover {
+    background-color: #367c39; /* Darker green on hover */
+  }
+  

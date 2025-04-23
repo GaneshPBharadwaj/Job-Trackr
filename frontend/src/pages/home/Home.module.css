@@ -1,0 +1,54 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #3b5ca5;
+  padding: 1rem;
+  color: white;
+}
+
+.menuTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.mainContent {
+  flex: 1;
+  background-color: #f4f4f4;
+  padding: 2rem;
+}
+
+.menuButton {
+  background-color: transparent;
+  color: white;
+  border: none;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menuButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.active {
+  background-color: #1e40af; /* Blue background for active item */
+  font-weight: bold;
+}
